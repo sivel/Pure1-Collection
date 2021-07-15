@@ -43,8 +43,6 @@ jobs:
 
       - name: Check out code
         uses: actions/checkout@v2
-        with:
-          path: ansible_collections/purestorage/pure1
 
       - name: Set up Python
         uses: actions/setup-python@v2
